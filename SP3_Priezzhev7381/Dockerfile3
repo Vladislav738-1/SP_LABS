@@ -1,0 +1,4 @@
+FROM almalinux 
+COPY PVA1 . 
+RUN chmod ugo+x PVA1
+CMD ./PVA1
